@@ -1,4 +1,4 @@
-package EA.HW.model;
+package EA.HW.data.entities;
 
 public class PushNotificationResponse {
     private int status;

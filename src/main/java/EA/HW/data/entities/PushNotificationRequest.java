@@ -1,4 +1,4 @@
-package EA.HW.model;
+package EA.HW.data.entities;
 
 public class PushNotificationRequest {
     private String title;

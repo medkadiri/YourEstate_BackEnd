@@ -8,6 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import EA.HW.data.entities.PushNotificationRequest;
+
 import com.google.firebase.messaging.AndroidConfig;
 import com.google.firebase.messaging.AndroidNotification;
 import com.google.firebase.messaging.ApnsConfig;
@@ -17,7 +19,6 @@ import com.google.firebase.messaging.Message;
 import com.google.firebase.messaging.Notification;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import EA.HW.model.PushNotificationRequest;
 
 @Service
 public class FCMService {

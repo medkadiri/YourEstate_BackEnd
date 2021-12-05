@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import EA.HW.model.PushNotificationRequest;
-import EA.HW.model.PushNotificationResponse;
+import EA.HW.data.entities.PushNotificationRequest;
+import EA.HW.data.entities.PushNotificationResponse;
 import EA.HW.services.PushNotificationService;
 
 @RestController
