@@ -20,6 +20,7 @@ public class JwtInterceptingFilter extends FilterSecurityInterceptor {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain)
             throws IOException, ServletException {
+        System.out.println("inside do Filter - Request:\n" + request);
         Authentication authentication = JwtHelper.parse((HttpServletRequest) request);
         if (authentication != null) {
             SecurityContextHolder.getContext().setAuthentication(authentication);
